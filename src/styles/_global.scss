@@ -1,0 +1,53 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(57, 60, 66);
+  padding-top: 150px;
+  padding-bottom: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  color: white;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  max-width: 900px;
+  margin: auto auto 4rem auto;
+}
+
+.showcase {
+  max-width: min(330px, 80vw);
+  margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    grid-template-columns: 50% 1fr;
+  }
+
+  .showcase {
+    grid-column: 2;
+    grid-row: 2/4;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  header {
+    grid-template-columns: 60% 1fr;
+  }
+}
