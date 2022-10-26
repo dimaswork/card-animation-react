@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/card-animation-react/static/css/main.181a256f.css",
+    "main.js": "/card-animation-react/static/js/main.01c00897.js",
+    "static/media/front-card.png": "/card-animation-react/static/media/front-card.e4f50366a556dbded40f.png",
+    "static/media/illusion_pockemon-glitter.webp": "/card-animation-react/static/media/illusion_pockemon-glitter.76e7be45e4f3f6f42283.webp",
+    "static/media/back-card.jpg": "/card-animation-react/static/media/back-card.db57a60e01b2da4800c5.jpg",
+    "index.html": "/card-animation-react/index.html",
+    "main.181a256f.css.map": "/card-animation-react/static/css/main.181a256f.css.map",
+    "main.01c00897.js.map": "/card-animation-react/static/js/main.01c00897.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.181a256f.css",
+    "static/js/main.01c00897.js"
+  ]
+}
